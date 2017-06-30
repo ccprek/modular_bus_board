@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/cprek/dev/electronics/bus.sch)
-    (date "Mon 26 Jun 2017 01:12:41 AM EDT")
+    (source /home/cprek/dev/synth/bus_board/bus.sch)
+    (date "Thu 29 Jun 2017 11:20:53 PM EDT")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -215,10 +215,10 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical win)
-      (uri /home/cprek/Dropbox/Projects/kicad/kicad-library-win/win.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical win)
+      (uri /home/cprek/Dropbox/Projects/kicad/kicad-library-win/win.lib)))
   (nets
     (net (code 1) (name +12V)
       (node (ref J2) (pin 7))
